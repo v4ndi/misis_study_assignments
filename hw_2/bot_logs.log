@@ -1,0 +1,8 @@
+﻿2023-09-30 23:26:09,615 - INFO - {'user_id': 249618246, 'info': 'User joined the bot', 'step': 'Welcome'}
+2023-09-30 23:26:09,615 - INFO - {'user_id': 249618246, 'info': 'User requested weather in their city. Waiting interval', 'step': 'Weather in the city from profile'}
+2023-09-30 23:26:13,223 - INFO - {'user_id': 249618246, 'info': 'The city was found', 'step': 'Getting city from user profile'}
+2023-09-30 23:26:13,223 - INFO - {'user_id': 249618246, 'info': 'User pass invalid interval = 12', 'step': 'Getting interval'}
+2023-09-30 23:26:16,243 - INFO - {'user_id': 249618246, 'info': 'User requested weather in their city. Waiting interval', 'step': 'Weather in the city from profile'}
+2023-09-30 23:26:20,758 - INFO - {'user_id': 249618246, 'info': 'The city was found', 'step': 'Getting city from user profile'}
+2023-09-30 23:26:20,763 - INFO - {'user_id': 249618246, 'info': 'User pass correct interval = 9', 'step': 'Getting interval'}
+2023-09-30 23:26:21,503 - INFO - {'user_id': 249618246, 'info': 'response to weather-web-service was success', 'step': 'Send weather to user'}
