@@ -7,7 +7,7 @@ from datetime import datetime
 import logging
 from utils import get_weather, get_user_city, read_config
 
-logging.basicConfig(filename='bot_logs.log', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s', encoding='utf-8-sig')
+logging.basicConfig(filename='bot_logs.log', level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s', encoding='utf-8-sig')
 
 def main():
     config = read_config()
@@ -103,6 +103,8 @@ def main():
                         'info': 'Got city from user input',
                         'step': 'Weather in another city'
                     }
+                    logging.info(log_data)
+
                     city = event.text[6:].strip()
                     users_city_requests[event.user_id] = city
                     waiting_for_user_input[event.user_id] = True
@@ -111,6 +113,25 @@ def main():
                         random_id=get_random_id(),
                         message='Введите интервал прогноза погоды в днях от 1 до 10'
                     )
+                else:
+                    log_data = {
+                    'user_id': event.user_id,
+                    'info': 'User pass name of the city in invalid format',
+                    'step': 'Weather in another city'
+                    }
+                    logging.error(log_data)
+            else:
+                vk.messages.send(
+                        user_id=event.user_id,
+                        random_id=get_random_id(),
+                        message='Выберите режим запроса погоды \"Погода в вашем городе\", "Погода в другом городе"'
+                    )
+                log_data = {
+                    'user_id': event.user_id,
+                    'info': 'User pass invalid text',
+                    'step': 'Waiting some requests from user'
+                }
+                logging.info(log_data)
 
 if __name__ == '__main__':
     main()

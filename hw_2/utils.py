@@ -11,7 +11,7 @@ def get_weather(city: str, interval: int, user_id: int) -> str:
             'info': f'User pass invalid interval = {interval}',
             'step': 'Getting interval'
         }
-        logging.info(log_data)
+        logging.error(log_data)
         return 'Введен неверный интервал'
     else:
         log_data = {
@@ -41,7 +41,7 @@ def get_weather(city: str, interval: int, user_id: int) -> str:
             'info': 'The city was not found on the site',
             'step': 'Send the weather'
         }
-        logging.info(log_data)
+        logging.error(log_data)
         return result
         
     p3 = b.findAll('div', class_='main')
@@ -73,7 +73,7 @@ def get_user_city(user_id, group_key):
             'info': 'City from profile doesn\'t find',
             'step': 'Getting city from user profile'
         }
-        logging.info(log_data)
+        logging.error(log_data)
     else:
         log_data = {
             'user_id': user_id,
