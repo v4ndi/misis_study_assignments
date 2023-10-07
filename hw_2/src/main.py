@@ -7,7 +7,7 @@ from datetime import datetime
 import logging
 from utils import get_weather, get_user_city, read_config
 
-logging.basicConfig(filename='bot_logs.log', level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s', encoding='utf-8-sig')
+logging.basicConfig(filename='logs/bot_logs.log', level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s', encoding='utf-8-sig')
 
 def main():
     config = read_config()

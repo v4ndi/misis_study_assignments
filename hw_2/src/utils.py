@@ -65,7 +65,10 @@ def get_user_city(user_id, group_key):
         'access_token': group_key
     })
 
-    city = user_info.json()['response'][0]['city']['title']
+    if 'city' in user_info.json()['response'][0]:
+        city = user_info.json()['response'][0]['city']['title']
+    else: 
+        city = None
 
     if city == None:
         log_data = {
@@ -84,7 +87,7 @@ def get_user_city(user_id, group_key):
 
     return city 
 
-def read_config(filename='config.ini'):
+def read_config(filename='src/config.ini'):
     config = configparser.ConfigParser()
 
     if os.path.exists(filename):

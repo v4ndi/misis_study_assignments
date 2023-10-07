@@ -1,0 +1,202 @@
+﻿2023-10-01 19:55:29,231 - DEBUG - Starting new HTTPS connection (1): api.vk.com:443
+2023-10-01 19:55:29,365 - DEBUG - https://api.vk.com:443 "POST /method/messages.getLongPollServer HTTP/1.1" 200 134
+2023-10-01 19:55:29,371 - DEBUG - Starting new HTTPS connection (1): im.vk.com:443
+2023-10-01 19:55:49,501 - DEBUG - https://im.vk.com:443 "GET /nim222561591?act=a_check&key=1b3a714253eaa557266d23d0651b432e3d6de749711c61df&ts=1790427307&wait=25&mode=234&version=3 HTTP/1.1" 200 167
+2023-10-01 19:55:49,631 - DEBUG - https://api.vk.com:443 "POST /method/messages.send HTTP/1.1" 200 36
+2023-10-01 19:55:49,631 - INFO - {'user_id': 249618246, 'info': 'User joined the bot', 'step': 'Welcome'}
+2023-10-01 19:55:49,631 - INFO - {'user_id': 249618246, 'info': 'User requested weather in their city. Waiting interval', 'step': 'Weather in the city from profile'}
+2023-10-01 19:55:50,148 - DEBUG - https://api.vk.com:443 "POST /method/messages.send HTTP/1.1" 200 36
+2023-10-01 19:55:50,161 - DEBUG - https://im.vk.com:443 "GET /nim222561591?act=a_check&key=1b3a714253eaa557266d23d0651b432e3d6de749711c61df&ts=1790427310&wait=25&mode=234&version=3 HTTP/1.1" 200 661
+2023-10-01 19:55:50,591 - DEBUG - https://im.vk.com:443 "GET /nim222561591?act=a_check&key=1b3a714253eaa557266d23d0651b432e3d6de749711c61df&ts=1790427317&wait=25&mode=234&version=3 HTTP/1.1" 200 66
+2023-10-01 19:55:55,427 - DEBUG - https://im.vk.com:443 "GET /nim222561591?act=a_check&key=1b3a714253eaa557266d23d0651b432e3d6de749711c61df&ts=1790427318&wait=25&mode=234&version=3 HTTP/1.1" 200 63
+2023-10-01 19:55:55,859 - DEBUG - https://im.vk.com:443 "GET /nim222561591?act=a_check&key=1b3a714253eaa557266d23d0651b432e3d6de749711c61df&ts=1790427320&wait=25&mode=234&version=3 HTTP/1.1" 200 132
+2023-10-01 19:55:55,869 - DEBUG - Starting new HTTPS connection (1): api.vk.com:443
+2023-10-01 19:55:55,963 - DEBUG - https://api.vk.com:443 "GET /method/users.get?user_ids=249618246&fields=city&v=5.154&access_token=vk1.a.ucGZlEJvkt16MW6vL2QYy6bzt-7z-b4Gt9iPRY8CPO3BIW5BvnbiTucyIOAuKf17siSk6svY88uPVoJBAqP_x2-Syi2GMCUo5QvNDBGJmJQsn_RaXIKYaTPN0c0YIKvG_tF63TVGS2Idu0pyiP4pG5eo5VK5o51GC7bHRt_1Rd8KeVY2Z40q4fTfXoaNZWW1jSs6InFb6-LZ2WbHrnm5MQ HTTP/1.1" 200 159
+2023-10-01 19:55:55,963 - INFO - {'user_id': 249618246, 'info': 'The city was found', 'step': 'Getting city from user profile'}
+2023-10-01 19:55:55,966 - ERROR - {'user_id': 249618246, 'info': 'User pass invalid interval = 11', 'step': 'Getting interval'}
+2023-10-01 19:55:56,081 - DEBUG - https://api.vk.com:443 "POST /method/messages.send HTTP/1.1" 200 36
+2023-10-01 19:55:56,102 - DEBUG - https://im.vk.com:443 "GET /nim222561591?act=a_check&key=1b3a714253eaa557266d23d0651b432e3d6de749711c61df&ts=1790427323&wait=25&mode=234&version=3 HTTP/1.1" 200 203
+2023-10-01 19:55:56,335 - DEBUG - https://im.vk.com:443 "GET /nim222561591?act=a_check&key=1b3a714253eaa557266d23d0651b432e3d6de749711c61df&ts=1790427327&wait=25&mode=234&version=3 HTTP/1.1" 200 66
+2023-10-01 19:55:58,224 - DEBUG - https://im.vk.com:443 "GET /nim222561591?act=a_check&key=1b3a714253eaa557266d23d0651b432e3d6de749711c61df&ts=1790427328&wait=25&mode=234&version=3 HTTP/1.1" 200 167
+2023-10-01 19:55:58,225 - INFO - {'user_id': 249618246, 'info': 'User requested weather in their city. Waiting interval', 'step': 'Weather in the city from profile'}
+2023-10-01 19:55:58,605 - DEBUG - https://api.vk.com:443 "POST /method/messages.send HTTP/1.1" 200 36
+2023-10-01 19:55:58,631 - DEBUG - https://im.vk.com:443 "GET /nim222561591?act=a_check&key=1b3a714253eaa557266d23d0651b432e3d6de749711c61df&ts=1790427331&wait=25&mode=234&version=3 HTTP/1.1" 200 267
+2023-10-01 19:56:00,821 - DEBUG - https://im.vk.com:443 "GET /nim222561591?act=a_check&key=1b3a714253eaa557266d23d0651b432e3d6de749711c61df&ts=1790427336&wait=25&mode=234&version=3 HTTP/1.1" 200 148
+2023-10-01 19:56:00,821 - DEBUG - Starting new HTTPS connection (1): api.vk.com:443
+2023-10-01 19:56:00,915 - DEBUG - https://api.vk.com:443 "GET /method/users.get?user_ids=249618246&fields=city&v=5.154&access_token=vk1.a.ucGZlEJvkt16MW6vL2QYy6bzt-7z-b4Gt9iPRY8CPO3BIW5BvnbiTucyIOAuKf17siSk6svY88uPVoJBAqP_x2-Syi2GMCUo5QvNDBGJmJQsn_RaXIKYaTPN0c0YIKvG_tF63TVGS2Idu0pyiP4pG5eo5VK5o51GC7bHRt_1Rd8KeVY2Z40q4fTfXoaNZWW1jSs6InFb6-LZ2WbHrnm5MQ HTTP/1.1" 200 159
+2023-10-01 19:56:00,916 - INFO - {'user_id': 249618246, 'info': 'The city was found', 'step': 'Getting city from user profile'}
+2023-10-01 19:56:00,917 - INFO - {'user_id': 249618246, 'info': 'User pass correct interval = 7', 'step': 'Getting interval'}
+2023-10-01 19:56:00,918 - DEBUG - Starting new HTTPS connection (1): sinoptik.ua:443
+2023-10-01 19:56:01,234 - DEBUG - https://sinoptik.ua:443 "GET /%D0%BF%D0%BE%D0%B3%D0%BE%D0%B4%D0%B0-%D0%BC%D0%BE%D1%81%D0%BA%D0%B2%D0%B0/10-%D0%B4%D0%BD%D0%B5%D0%B9 HTTP/1.1" 200 None
+2023-10-01 19:56:01,322 - INFO - {'user_id': 249618246, 'info': 'response to weather-web-service was success', 'step': 'Send weather to user'}
+2023-10-01 19:56:01,573 - DEBUG - https://api.vk.com:443 "POST /method/messages.send HTTP/1.1" 200 36
+2023-10-01 19:56:01,617 - DEBUG - https://im.vk.com:443 "GET /nim222561591?act=a_check&key=1b3a714253eaa557266d23d0651b432e3d6de749711c61df&ts=1790427341&wait=25&mode=234&version=3 HTTP/1.1" 200 601
+2023-10-01 19:56:01,802 - DEBUG - https://im.vk.com:443 "GET /nim222561591?act=a_check&key=1b3a714253eaa557266d23d0651b432e3d6de749711c61df&ts=1790427345&wait=25&mode=234&version=3 HTTP/1.1" 200 66
+2023-10-01 19:56:04,058 - DEBUG - https://im.vk.com:443 "GET /nim222561591?act=a_check&key=1b3a714253eaa557266d23d0651b432e3d6de749711c61df&ts=1790427346&wait=25&mode=234&version=3 HTTP/1.1" 200 171
+2023-10-01 19:56:04,059 - INFO - {'user_id': 249618246, 'info': 'User requested weather in another city. Waiting name of the city', 'step': 'Weather in another city'}
+2023-10-01 19:56:04,219 - DEBUG - https://api.vk.com:443 "POST /method/messages.send HTTP/1.1" 200 36
+2023-10-01 19:56:04,237 - DEBUG - https://im.vk.com:443 "GET /nim222561591?act=a_check&key=1b3a714253eaa557266d23d0651b432e3d6de749711c61df&ts=1790427349&wait=25&mode=234&version=3 HTTP/1.1" 200 258
+2023-10-01 19:56:04,419 - DEBUG - https://im.vk.com:443 "GET /nim222561591?act=a_check&key=1b3a714253eaa557266d23d0651b432e3d6de749711c61df&ts=1790427353&wait=25&mode=234&version=3 HTTP/1.1" 200 66
+2023-10-01 19:56:05,935 - DEBUG - https://im.vk.com:443 "GET /nim222561591?act=a_check&key=1b3a714253eaa557266d23d0651b432e3d6de749711c61df&ts=1790427354&wait=25&mode=234&version=3 HTTP/1.1" 200 63
+2023-10-01 19:56:09,999 - DEBUG - https://im.vk.com:443 "GET /nim222561591?act=a_check&key=1b3a714253eaa557266d23d0651b432e3d6de749711c61df&ts=1790427356&wait=25&mode=234&version=3 HTTP/1.1" 200 141
+2023-10-01 19:56:09,999 - ERROR - {'user_id': 249618246, 'info': 'User pass name of the city in invalid format', 'step': 'Weather in another city'}
+2023-10-01 19:56:14,183 - DEBUG - https://im.vk.com:443 "GET /nim222561591?act=a_check&key=1b3a714253eaa557266d23d0651b432e3d6de749711c61df&ts=1790427359&wait=25&mode=234&version=3 HTTP/1.1" 200 145
+2023-10-01 19:56:14,183 - INFO - {'user_id': 249618246, 'info': 'User requested weather in another city. Waiting name of the city', 'step': 'Weather in another city'}
+2023-10-01 19:56:14,282 - DEBUG - https://api.vk.com:443 "POST /method/messages.send HTTP/1.1" 200 36
+2023-10-01 19:56:14,301 - DEBUG - https://im.vk.com:443 "GET /nim222561591?act=a_check&key=1b3a714253eaa557266d23d0651b432e3d6de749711c61df&ts=1790427360&wait=25&mode=234&version=3 HTTP/1.1" 200 256
+2023-10-01 19:56:14,534 - DEBUG - https://im.vk.com:443 "GET /nim222561591?act=a_check&key=1b3a714253eaa557266d23d0651b432e3d6de749711c61df&ts=1790427364&wait=25&mode=234&version=3 HTTP/1.1" 200 66
+2023-10-01 19:56:16,287 - DEBUG - https://im.vk.com:443 "GET /nim222561591?act=a_check&key=1b3a714253eaa557266d23d0651b432e3d6de749711c61df&ts=1790427365&wait=25&mode=234&version=3 HTTP/1.1" 200 63
+2023-10-01 19:56:21,384 - DEBUG - https://im.vk.com:443 "GET /nim222561591?act=a_check&key=1b3a714253eaa557266d23d0651b432e3d6de749711c61df&ts=1790427367&wait=25&mode=234&version=3 HTTP/1.1" 200 63
+2023-10-01 19:56:23,121 - DEBUG - https://im.vk.com:443 "GET /nim222561591?act=a_check&key=1b3a714253eaa557266d23d0651b432e3d6de749711c61df&ts=1790427369&wait=25&mode=234&version=3 HTTP/1.1" 200 149
+2023-10-01 19:56:23,121 - INFO - {'user_id': 249618246, 'info': 'Got city from user input', 'step': 'Weather in another city'}
+2023-10-01 19:56:23,280 - DEBUG - https://api.vk.com:443 "POST /method/messages.send HTTP/1.1" 200 36
+2023-10-01 19:56:23,305 - DEBUG - https://im.vk.com:443 "GET /nim222561591?act=a_check&key=1b3a714253eaa557266d23d0651b432e3d6de749711c61df&ts=1790427372&wait=25&mode=234&version=3 HTTP/1.1" 200 245
+2023-10-01 19:56:23,496 - DEBUG - https://im.vk.com:443 "GET /nim222561591?act=a_check&key=1b3a714253eaa557266d23d0651b432e3d6de749711c61df&ts=1790427376&wait=25&mode=234&version=3 HTTP/1.1" 200 66
+2023-10-01 19:56:26,956 - DEBUG - https://im.vk.com:443 "GET /nim222561591?act=a_check&key=1b3a714253eaa557266d23d0651b432e3d6de749711c61df&ts=1790427377&wait=25&mode=234&version=3 HTTP/1.1" 200 131
+2023-10-01 19:56:26,956 - INFO - {'user_id': 249618246, 'info': 'User pass correct interval = 8', 'step': 'Getting interval'}
+2023-10-01 19:56:26,956 - DEBUG - Starting new HTTPS connection (1): sinoptik.ua:443
+2023-10-01 19:56:27,193 - DEBUG - https://sinoptik.ua:443 "GET /%D0%BF%D0%BE%D0%B3%D0%BE%D0%B4%D0%B0-%D0%BA%D1%80%D1%8B%D0%BC/10-%D0%B4%D0%BD%D0%B5%D0%B9 HTTP/1.1" 200 None
+2023-10-01 19:56:27,289 - INFO - {'user_id': 249618246, 'info': 'response to weather-web-service was success', 'step': 'Send weather to user'}
+2023-10-01 19:56:28,581 - DEBUG - https://api.vk.com:443 "POST /method/messages.send HTTP/1.1" 200 36
+2023-10-01 19:56:28,607 - DEBUG - https://im.vk.com:443 "GET /nim222561591?act=a_check&key=1b3a714253eaa557266d23d0651b432e3d6de749711c61df&ts=1790427380&wait=25&mode=234&version=3 HTTP/1.1" 200 677
+2023-10-07 17:08:24,637 - DEBUG - Starting new HTTPS connection (1): api.vk.com:443
+2023-10-07 17:08:24,919 - DEBUG - https://api.vk.com:443 "POST /method/messages.getLongPollServer HTTP/1.1" 200 134
+2023-10-07 17:08:24,920 - DEBUG - Starting new HTTPS connection (1): im.vk.com:443
+2023-10-07 17:08:50,185 - DEBUG - https://im.vk.com:443 "GET /nim222561591?act=a_check&key=a788e0d134ab3c006d714b4892075da4d0b1c3298797d888&ts=1839381488&wait=25&mode=234&version=3 HTTP/1.1" 200 47
+2023-10-07 17:09:15,257 - DEBUG - https://im.vk.com:443 "GET /nim222561591?act=a_check&key=a788e0d134ab3c006d714b4892075da4d0b1c3298797d888&ts=1839381488&wait=25&mode=234&version=3 HTTP/1.1" 200 47
+2023-10-07 17:09:36,051 - DEBUG - https://im.vk.com:443 "GET /nim222561591?act=a_check&key=a788e0d134ab3c006d714b4892075da4d0b1c3298797d888&ts=1839381488&wait=25&mode=234&version=3 HTTP/1.1" 200 167
+2023-10-07 17:09:36,053 - DEBUG - Resetting dropped connection: api.vk.com
+2023-10-07 17:09:36,364 - DEBUG - https://api.vk.com:443 "POST /method/messages.send HTTP/1.1" 200 36
+2023-10-07 17:09:36,364 - INFO - {'user_id': 249618246, 'info': 'User joined the bot', 'step': 'Welcome'}
+2023-10-07 17:09:36,364 - INFO - {'user_id': 249618246, 'info': 'User requested weather in their city. Waiting interval', 'step': 'Weather in the city from profile'}
+2023-10-07 17:09:36,876 - DEBUG - https://api.vk.com:443 "POST /method/messages.send HTTP/1.1" 200 36
+2023-10-07 17:09:36,943 - DEBUG - https://im.vk.com:443 "GET /nim222561591?act=a_check&key=a788e0d134ab3c006d714b4892075da4d0b1c3298797d888&ts=1839381491&wait=25&mode=234&version=3 HTTP/1.1" 200 661
+2023-10-07 17:09:37,169 - DEBUG - https://im.vk.com:443 "GET /nim222561591?act=a_check&key=a788e0d134ab3c006d714b4892075da4d0b1c3298797d888&ts=1839381498&wait=25&mode=234&version=3 HTTP/1.1" 200 66
+2023-10-07 17:09:39,418 - DEBUG - https://im.vk.com:443 "GET /nim222561591?act=a_check&key=a788e0d134ab3c006d714b4892075da4d0b1c3298797d888&ts=1839381499&wait=25&mode=234&version=3 HTTP/1.1" 200 63
+2023-10-07 17:09:39,736 - DEBUG - https://im.vk.com:443 "GET /nim222561591?act=a_check&key=a788e0d134ab3c006d714b4892075da4d0b1c3298797d888&ts=1839381501&wait=25&mode=234&version=3 HTTP/1.1" 200 131
+2023-10-07 17:09:39,739 - DEBUG - Starting new HTTPS connection (1): api.vk.com:443
+2023-10-07 17:09:39,972 - DEBUG - https://api.vk.com:443 "GET /method/users.get?user_ids=249618246&fields=city&v=5.154&access_token=vk1.a.ucGZlEJvkt16MW6vL2QYy6bzt-7z-b4Gt9iPRY8CPO3BIW5BvnbiTucyIOAuKf17siSk6svY88uPVoJBAqP_x2-Syi2GMCUo5QvNDBGJmJQsn_RaXIKYaTPN0c0YIKvG_tF63TVGS2Idu0pyiP4pG5eo5VK5o51GC7bHRt_1Rd8KeVY2Z40q4fTfXoaNZWW1jSs6InFb6-LZ2WbHrnm5MQ HTTP/1.1" 200 159
+2023-10-07 17:09:39,972 - INFO - {'user_id': 249618246, 'info': 'The city was found', 'step': 'Getting city from user profile'}
+2023-10-07 17:09:39,973 - INFO - {'user_id': 249618246, 'info': 'User pass correct interval = 7', 'step': 'Getting interval'}
+2023-10-07 17:09:39,974 - DEBUG - Starting new HTTPS connection (1): sinoptik.ua:443
+2023-10-07 17:09:40,365 - DEBUG - https://sinoptik.ua:443 "GET /%D0%BF%D0%BE%D0%B3%D0%BE%D0%B4%D0%B0-%D0%BC%D0%BE%D1%81%D0%BA%D0%B2%D0%B0/10-%D0%B4%D0%BD%D0%B5%D0%B9 HTTP/1.1" 200 None
+2023-10-07 17:09:40,460 - INFO - {'user_id': 249618246, 'info': 'response to weather-web-service was success', 'step': 'Send weather to user'}
+2023-10-07 17:09:40,627 - DEBUG - https://api.vk.com:443 "POST /method/messages.send HTTP/1.1" 200 36
+2023-10-07 17:09:40,697 - DEBUG - https://im.vk.com:443 "GET /nim222561591?act=a_check&key=a788e0d134ab3c006d714b4892075da4d0b1c3298797d888&ts=1839381504&wait=25&mode=234&version=3 HTTP/1.1" 200 589
+2023-10-07 17:09:40,988 - DEBUG - https://im.vk.com:443 "GET /nim222561591?act=a_check&key=a788e0d134ab3c006d714b4892075da4d0b1c3298797d888&ts=1839381508&wait=25&mode=234&version=3 HTTP/1.1" 200 66
+2023-10-07 17:37:23,505 - DEBUG - Starting new HTTPS connection (1): api.vk.com:443
+2023-10-07 17:37:23,752 - DEBUG - https://api.vk.com:443 "POST /method/messages.getLongPollServer HTTP/1.1" 200 135
+2023-10-07 17:37:23,752 - DEBUG - Starting new HTTPS connection (1): im.vk.com:443
+2023-10-07 17:37:34,800 - DEBUG - https://im.vk.com:443 "GET /nim222561591?act=a_check&key=15d053106b76dc6aadc28cf5d0e0357d8d9c76ed7e9acf40&ts=1839381509&wait=25&mode=234&version=3 HTTP/1.1" 200 167
+2023-10-07 17:37:35,020 - DEBUG - https://api.vk.com:443 "POST /method/messages.send HTTP/1.1" 200 36
+2023-10-07 17:37:35,022 - INFO - {'user_id': 249618246, 'info': 'User joined the bot', 'step': 'Welcome'}
+2023-10-07 17:37:35,022 - INFO - {'user_id': 249618246, 'info': 'User requested weather in their city. Waiting interval', 'step': 'Weather in the city from profile'}
+2023-10-07 17:37:35,582 - DEBUG - https://api.vk.com:443 "POST /method/messages.send HTTP/1.1" 200 36
+2023-10-07 17:37:35,650 - DEBUG - https://im.vk.com:443 "GET /nim222561591?act=a_check&key=15d053106b76dc6aadc28cf5d0e0357d8d9c76ed7e9acf40&ts=1839381512&wait=25&mode=234&version=3 HTTP/1.1" 200 660
+2023-10-07 17:37:35,823 - DEBUG - https://im.vk.com:443 "GET /nim222561591?act=a_check&key=15d053106b76dc6aadc28cf5d0e0357d8d9c76ed7e9acf40&ts=1839381519&wait=25&mode=234&version=3 HTTP/1.1" 200 66
+2023-10-07 17:37:37,247 - DEBUG - https://im.vk.com:443 "GET /nim222561591?act=a_check&key=15d053106b76dc6aadc28cf5d0e0357d8d9c76ed7e9acf40&ts=1839381520&wait=25&mode=234&version=3 HTTP/1.1" 200 63
+2023-10-07 17:37:37,317 - DEBUG - https://im.vk.com:443 "GET /nim222561591?act=a_check&key=15d053106b76dc6aadc28cf5d0e0357d8d9c76ed7e9acf40&ts=1839381522&wait=25&mode=234&version=3 HTTP/1.1" 200 131
+2023-10-07 17:37:37,319 - DEBUG - Starting new HTTPS connection (1): api.vk.com:443
+2023-10-07 17:37:37,544 - DEBUG - https://api.vk.com:443 "GET /method/users.get?user_ids=249618246&fields=city&v=5.154&access_token=vk1.a.ucGZlEJvkt16MW6vL2QYy6bzt-7z-b4Gt9iPRY8CPO3BIW5BvnbiTucyIOAuKf17siSk6svY88uPVoJBAqP_x2-Syi2GMCUo5QvNDBGJmJQsn_RaXIKYaTPN0c0YIKvG_tF63TVGS2Idu0pyiP4pG5eo5VK5o51GC7bHRt_1Rd8KeVY2Z40q4fTfXoaNZWW1jSs6InFb6-LZ2WbHrnm5MQ HTTP/1.1" 200 159
+2023-10-07 17:37:37,544 - INFO - {'user_id': 249618246, 'info': 'The city was found', 'step': 'Getting city from user profile'}
+2023-10-07 17:37:37,546 - INFO - {'user_id': 249618246, 'info': 'User pass correct interval = 4', 'step': 'Getting interval'}
+2023-10-07 17:37:37,547 - DEBUG - Starting new HTTPS connection (1): sinoptik.ua:443
+2023-10-07 17:37:37,967 - DEBUG - https://sinoptik.ua:443 "GET /%D0%BF%D0%BE%D0%B3%D0%BE%D0%B4%D0%B0-%D0%BC%D0%BE%D1%81%D0%BA%D0%B2%D0%B0/10-%D0%B4%D0%BD%D0%B5%D0%B9 HTTP/1.1" 200 None
+2023-10-07 17:37:38,028 - INFO - {'user_id': 249618246, 'info': 'response to weather-web-service was success', 'step': 'Send weather to user'}
+2023-10-07 17:37:38,200 - DEBUG - https://api.vk.com:443 "POST /method/messages.send HTTP/1.1" 200 36
+2023-10-07 17:37:38,277 - DEBUG - https://im.vk.com:443 "GET /nim222561591?act=a_check&key=15d053106b76dc6aadc28cf5d0e0357d8d9c76ed7e9acf40&ts=1839381525&wait=25&mode=234&version=3 HTTP/1.1" 200 420
+2023-10-07 17:37:38,534 - DEBUG - https://im.vk.com:443 "GET /nim222561591?act=a_check&key=15d053106b76dc6aadc28cf5d0e0357d8d9c76ed7e9acf40&ts=1839381529&wait=25&mode=234&version=3 HTTP/1.1" 200 66
+2023-10-07 17:42:37,529 - DEBUG - Starting new HTTPS connection (1): api.vk.com:443
+2023-10-07 17:42:37,792 - DEBUG - https://api.vk.com:443 "POST /method/messages.getLongPollServer HTTP/1.1" 200 134
+2023-10-07 17:42:37,799 - DEBUG - Starting new HTTPS connection (1): im.vk.com:443
+2023-10-07 17:42:47,788 - DEBUG - https://im.vk.com:443 "GET /nim222561591?act=a_check&key=48d9ed0ac18cd5e1304bab1af760a50369e93d18b9004aa3&ts=1839381530&wait=25&mode=234&version=3 HTTP/1.1" 200 167
+2023-10-07 17:42:47,958 - DEBUG - https://api.vk.com:443 "POST /method/messages.send HTTP/1.1" 200 36
+2023-10-07 17:42:47,958 - INFO - {'user_id': 249618246, 'info': 'User joined the bot', 'step': 'Welcome'}
+2023-10-07 17:42:47,958 - INFO - {'user_id': 249618246, 'info': 'User requested weather in their city. Waiting interval', 'step': 'Weather in the city from profile'}
+2023-10-07 17:42:48,478 - DEBUG - https://api.vk.com:443 "POST /method/messages.send HTTP/1.1" 200 36
+2023-10-07 17:42:48,547 - DEBUG - https://im.vk.com:443 "GET /nim222561591?act=a_check&key=48d9ed0ac18cd5e1304bab1af760a50369e93d18b9004aa3&ts=1839381533&wait=25&mode=234&version=3 HTTP/1.1" 200 661
+2023-10-07 17:42:48,789 - DEBUG - https://im.vk.com:443 "GET /nim222561591?act=a_check&key=48d9ed0ac18cd5e1304bab1af760a50369e93d18b9004aa3&ts=1839381540&wait=25&mode=234&version=3 HTTP/1.1" 200 66
+2023-10-07 17:42:49,907 - DEBUG - https://im.vk.com:443 "GET /nim222561591?act=a_check&key=48d9ed0ac18cd5e1304bab1af760a50369e93d18b9004aa3&ts=1839381541&wait=25&mode=234&version=3 HTTP/1.1" 200 63
+2023-10-07 17:42:49,972 - DEBUG - https://im.vk.com:443 "GET /nim222561591?act=a_check&key=48d9ed0ac18cd5e1304bab1af760a50369e93d18b9004aa3&ts=1839381543&wait=25&mode=234&version=3 HTTP/1.1" 200 131
+2023-10-07 17:42:49,975 - DEBUG - Starting new HTTPS connection (1): api.vk.com:443
+2023-10-07 17:42:50,193 - DEBUG - https://api.vk.com:443 "GET /method/users.get?user_ids=249618246&fields=city&v=5.154&access_token=vk1.a.ucGZlEJvkt16MW6vL2QYy6bzt-7z-b4Gt9iPRY8CPO3BIW5BvnbiTucyIOAuKf17siSk6svY88uPVoJBAqP_x2-Syi2GMCUo5QvNDBGJmJQsn_RaXIKYaTPN0c0YIKvG_tF63TVGS2Idu0pyiP4pG5eo5VK5o51GC7bHRt_1Rd8KeVY2Z40q4fTfXoaNZWW1jSs6InFb6-LZ2WbHrnm5MQ HTTP/1.1" 200 159
+2023-10-07 17:42:50,194 - INFO - {'user_id': 249618246, 'info': 'The city was found', 'step': 'Getting city from user profile'}
+2023-10-07 17:42:50,196 - INFO - {'user_id': 249618246, 'info': 'User pass correct interval = 7', 'step': 'Getting interval'}
+2023-10-07 17:42:50,198 - DEBUG - Starting new HTTPS connection (1): sinoptik.ua:443
+2023-10-07 17:42:50,687 - DEBUG - https://sinoptik.ua:443 "GET /%D0%BF%D0%BE%D0%B3%D0%BE%D0%B4%D0%B0-%D0%BC%D0%BE%D1%81%D0%BA%D0%B2%D0%B0/10-%D0%B4%D0%BD%D0%B5%D0%B9 HTTP/1.1" 200 None
+2023-10-07 17:42:50,774 - INFO - {'user_id': 249618246, 'info': 'response to weather-web-service was success', 'step': 'Send weather to user'}
+2023-10-07 17:42:50,975 - DEBUG - https://api.vk.com:443 "POST /method/messages.send HTTP/1.1" 200 36
+2023-10-07 17:42:51,047 - DEBUG - https://im.vk.com:443 "GET /nim222561591?act=a_check&key=48d9ed0ac18cd5e1304bab1af760a50369e93d18b9004aa3&ts=1839381546&wait=25&mode=234&version=3 HTTP/1.1" 200 590
+2023-10-07 17:42:51,348 - DEBUG - https://im.vk.com:443 "GET /nim222561591?act=a_check&key=48d9ed0ac18cd5e1304bab1af760a50369e93d18b9004aa3&ts=1839381550&wait=25&mode=234&version=3 HTTP/1.1" 200 66
+2023-10-07 17:42:52,490 - DEBUG - https://im.vk.com:443 "GET /nim222561591?act=a_check&key=48d9ed0ac18cd5e1304bab1af760a50369e93d18b9004aa3&ts=1839381551&wait=25&mode=234&version=3 HTTP/1.1" 200 171
+2023-10-07 17:42:52,491 - INFO - {'user_id': 249618246, 'info': 'User requested weather in another city. Waiting name of the city', 'step': 'Weather in another city'}
+2023-10-07 17:42:52,713 - DEBUG - https://api.vk.com:443 "POST /method/messages.send HTTP/1.1" 200 36
+2023-10-07 17:42:52,780 - DEBUG - https://im.vk.com:443 "GET /nim222561591?act=a_check&key=48d9ed0ac18cd5e1304bab1af760a50369e93d18b9004aa3&ts=1839381554&wait=25&mode=234&version=3 HTTP/1.1" 200 258
+2023-10-07 17:42:52,977 - DEBUG - https://im.vk.com:443 "GET /nim222561591?act=a_check&key=48d9ed0ac18cd5e1304bab1af760a50369e93d18b9004aa3&ts=1839381558&wait=25&mode=234&version=3 HTTP/1.1" 200 66
+2023-10-07 17:42:55,150 - DEBUG - https://im.vk.com:443 "GET /nim222561591?act=a_check&key=48d9ed0ac18cd5e1304bab1af760a50369e93d18b9004aa3&ts=1839381559&wait=25&mode=234&version=3 HTTP/1.1" 200 63
+2023-10-07 17:42:58,478 - DEBUG - https://im.vk.com:443 "GET /nim222561591?act=a_check&key=48d9ed0ac18cd5e1304bab1af760a50369e93d18b9004aa3&ts=1839381561&wait=25&mode=234&version=3 HTTP/1.1" 200 154
+2023-10-07 17:42:58,478 - INFO - {'user_id': 249618246, 'info': 'Got city from user input', 'step': 'Weather in another city'}
+2023-10-07 17:42:58,805 - DEBUG - https://api.vk.com:443 "POST /method/messages.send HTTP/1.1" 200 36
+2023-10-07 17:42:58,873 - DEBUG - https://im.vk.com:443 "GET /nim222561591?act=a_check&key=48d9ed0ac18cd5e1304bab1af760a50369e93d18b9004aa3&ts=1839381564&wait=25&mode=234&version=3 HTTP/1.1" 200 266
+2023-10-07 17:43:07,561 - DEBUG - https://im.vk.com:443 "GET /nim222561591?act=a_check&key=48d9ed0ac18cd5e1304bab1af760a50369e93d18b9004aa3&ts=1839381569&wait=25&mode=234&version=3 HTTP/1.1" 200 63
+2023-10-07 17:43:07,754 - DEBUG - https://im.vk.com:443 "GET /nim222561591?act=a_check&key=48d9ed0ac18cd5e1304bab1af760a50369e93d18b9004aa3&ts=1839381571&wait=25&mode=234&version=3 HTTP/1.1" 200 131
+2023-10-07 17:43:07,755 - INFO - {'user_id': 249618246, 'info': 'User pass correct interval = 6', 'step': 'Getting interval'}
+2023-10-07 17:43:07,756 - DEBUG - Starting new HTTPS connection (1): sinoptik.ua:443
+2023-10-07 17:43:08,130 - DEBUG - https://sinoptik.ua:443 "GET /%D0%BF%D0%BE%D0%B3%D0%BE%D0%B4%D0%B0-%D0%BC%D0%BE%D1%81%D0%BA%D0%B2%D0%B0/10-%D0%B4%D0%BD%D0%B5%D0%B9 HTTP/1.1" 200 None
+2023-10-07 17:43:08,183 - INFO - {'user_id': 249618246, 'info': 'response to weather-web-service was success', 'step': 'Send weather to user'}
+2023-10-07 17:43:08,510 - DEBUG - https://api.vk.com:443 "POST /method/messages.send HTTP/1.1" 200 36
+2023-10-07 17:43:08,577 - DEBUG - https://im.vk.com:443 "GET /nim222561591?act=a_check&key=48d9ed0ac18cd5e1304bab1af760a50369e93d18b9004aa3&ts=1839381574&wait=25&mode=234&version=3 HTTP/1.1" 200 535
+2023-10-07 17:43:09,068 - DEBUG - https://im.vk.com:443 "GET /nim222561591?act=a_check&key=48d9ed0ac18cd5e1304bab1af760a50369e93d18b9004aa3&ts=1839381578&wait=25&mode=234&version=3 HTTP/1.1" 200 66
+2023-10-07 17:43:34,133 - DEBUG - https://im.vk.com:443 "GET /nim222561591?act=a_check&key=48d9ed0ac18cd5e1304bab1af760a50369e93d18b9004aa3&ts=1839381579&wait=25&mode=234&version=3 HTTP/1.1" 200 47
+2023-10-07 17:43:59,198 - DEBUG - https://im.vk.com:443 "GET /nim222561591?act=a_check&key=48d9ed0ac18cd5e1304bab1af760a50369e93d18b9004aa3&ts=1839381579&wait=25&mode=234&version=3 HTTP/1.1" 200 47
+2023-10-07 17:44:24,267 - DEBUG - https://im.vk.com:443 "GET /nim222561591?act=a_check&key=48d9ed0ac18cd5e1304bab1af760a50369e93d18b9004aa3&ts=1839381579&wait=25&mode=234&version=3 HTTP/1.1" 200 47
+2023-10-07 17:44:49,337 - DEBUG - https://im.vk.com:443 "GET /nim222561591?act=a_check&key=48d9ed0ac18cd5e1304bab1af760a50369e93d18b9004aa3&ts=1839381579&wait=25&mode=234&version=3 HTTP/1.1" 200 47
+2023-10-07 17:45:14,407 - DEBUG - https://im.vk.com:443 "GET /nim222561591?act=a_check&key=48d9ed0ac18cd5e1304bab1af760a50369e93d18b9004aa3&ts=1839381579&wait=25&mode=234&version=3 HTTP/1.1" 200 47
+2023-10-07 17:45:39,472 - DEBUG - https://im.vk.com:443 "GET /nim222561591?act=a_check&key=48d9ed0ac18cd5e1304bab1af760a50369e93d18b9004aa3&ts=1839381579&wait=25&mode=234&version=3 HTTP/1.1" 200 47
+2023-10-07 17:46:04,544 - DEBUG - https://im.vk.com:443 "GET /nim222561591?act=a_check&key=48d9ed0ac18cd5e1304bab1af760a50369e93d18b9004aa3&ts=1839381579&wait=25&mode=234&version=3 HTTP/1.1" 200 47
+2023-10-07 17:46:29,616 - DEBUG - https://im.vk.com:443 "GET /nim222561591?act=a_check&key=48d9ed0ac18cd5e1304bab1af760a50369e93d18b9004aa3&ts=1839381579&wait=25&mode=234&version=3 HTTP/1.1" 200 47
+2023-10-07 17:46:54,690 - DEBUG - https://im.vk.com:443 "GET /nim222561591?act=a_check&key=48d9ed0ac18cd5e1304bab1af760a50369e93d18b9004aa3&ts=1839381579&wait=25&mode=234&version=3 HTTP/1.1" 200 47
+2023-10-07 17:47:19,777 - DEBUG - https://im.vk.com:443 "GET /nim222561591?act=a_check&key=48d9ed0ac18cd5e1304bab1af760a50369e93d18b9004aa3&ts=1839381579&wait=25&mode=234&version=3 HTTP/1.1" 200 47
+2023-10-07 17:47:44,845 - DEBUG - https://im.vk.com:443 "GET /nim222561591?act=a_check&key=48d9ed0ac18cd5e1304bab1af760a50369e93d18b9004aa3&ts=1839381579&wait=25&mode=234&version=3 HTTP/1.1" 200 47
+2023-10-07 17:48:09,913 - DEBUG - https://im.vk.com:443 "GET /nim222561591?act=a_check&key=48d9ed0ac18cd5e1304bab1af760a50369e93d18b9004aa3&ts=1839381579&wait=25&mode=234&version=3 HTTP/1.1" 200 47
+2023-10-07 17:48:34,975 - DEBUG - https://im.vk.com:443 "GET /nim222561591?act=a_check&key=48d9ed0ac18cd5e1304bab1af760a50369e93d18b9004aa3&ts=1839381579&wait=25&mode=234&version=3 HTTP/1.1" 200 47
+2023-10-07 17:49:00,047 - DEBUG - https://im.vk.com:443 "GET /nim222561591?act=a_check&key=48d9ed0ac18cd5e1304bab1af760a50369e93d18b9004aa3&ts=1839381579&wait=25&mode=234&version=3 HTTP/1.1" 200 47
+2023-10-07 17:49:25,114 - DEBUG - https://im.vk.com:443 "GET /nim222561591?act=a_check&key=48d9ed0ac18cd5e1304bab1af760a50369e93d18b9004aa3&ts=1839381579&wait=25&mode=234&version=3 HTTP/1.1" 200 47
+2023-10-07 17:49:50,179 - DEBUG - https://im.vk.com:443 "GET /nim222561591?act=a_check&key=48d9ed0ac18cd5e1304bab1af760a50369e93d18b9004aa3&ts=1839381579&wait=25&mode=234&version=3 HTTP/1.1" 200 47
+2023-10-07 17:50:15,243 - DEBUG - https://im.vk.com:443 "GET /nim222561591?act=a_check&key=48d9ed0ac18cd5e1304bab1af760a50369e93d18b9004aa3&ts=1839381579&wait=25&mode=234&version=3 HTTP/1.1" 200 47
+2023-10-07 17:50:40,323 - DEBUG - https://im.vk.com:443 "GET /nim222561591?act=a_check&key=48d9ed0ac18cd5e1304bab1af760a50369e93d18b9004aa3&ts=1839381579&wait=25&mode=234&version=3 HTTP/1.1" 200 47
+2023-10-07 17:51:05,392 - DEBUG - https://im.vk.com:443 "GET /nim222561591?act=a_check&key=48d9ed0ac18cd5e1304bab1af760a50369e93d18b9004aa3&ts=1839381579&wait=25&mode=234&version=3 HTTP/1.1" 200 47
+2023-10-07 17:51:30,623 - DEBUG - https://im.vk.com:443 "GET /nim222561591?act=a_check&key=48d9ed0ac18cd5e1304bab1af760a50369e93d18b9004aa3&ts=1839381579&wait=25&mode=234&version=3 HTTP/1.1" 200 47
+2023-10-07 17:51:55,732 - DEBUG - https://im.vk.com:443 "GET /nim222561591?act=a_check&key=48d9ed0ac18cd5e1304bab1af760a50369e93d18b9004aa3&ts=1839381579&wait=25&mode=234&version=3 HTTP/1.1" 200 47
+2023-10-07 17:52:20,802 - DEBUG - https://im.vk.com:443 "GET /nim222561591?act=a_check&key=48d9ed0ac18cd5e1304bab1af760a50369e93d18b9004aa3&ts=1839381579&wait=25&mode=234&version=3 HTTP/1.1" 200 47
+2023-10-07 17:52:45,872 - DEBUG - https://im.vk.com:443 "GET /nim222561591?act=a_check&key=48d9ed0ac18cd5e1304bab1af760a50369e93d18b9004aa3&ts=1839381579&wait=25&mode=234&version=3 HTTP/1.1" 200 47
+2023-10-07 17:53:10,945 - DEBUG - https://im.vk.com:443 "GET /nim222561591?act=a_check&key=48d9ed0ac18cd5e1304bab1af760a50369e93d18b9004aa3&ts=1839381579&wait=25&mode=234&version=3 HTTP/1.1" 200 47
+2023-10-07 17:53:36,011 - DEBUG - https://im.vk.com:443 "GET /nim222561591?act=a_check&key=48d9ed0ac18cd5e1304bab1af760a50369e93d18b9004aa3&ts=1839381579&wait=25&mode=234&version=3 HTTP/1.1" 200 47
+2023-10-07 17:54:01,082 - DEBUG - https://im.vk.com:443 "GET /nim222561591?act=a_check&key=48d9ed0ac18cd5e1304bab1af760a50369e93d18b9004aa3&ts=1839381579&wait=25&mode=234&version=3 HTTP/1.1" 200 47
+2023-10-07 17:54:26,142 - DEBUG - https://im.vk.com:443 "GET /nim222561591?act=a_check&key=48d9ed0ac18cd5e1304bab1af760a50369e93d18b9004aa3&ts=1839381579&wait=25&mode=234&version=3 HTTP/1.1" 200 47
+2023-10-07 17:54:51,219 - DEBUG - https://im.vk.com:443 "GET /nim222561591?act=a_check&key=48d9ed0ac18cd5e1304bab1af760a50369e93d18b9004aa3&ts=1839381579&wait=25&mode=234&version=3 HTTP/1.1" 200 47
+2023-10-07 17:55:16,280 - DEBUG - https://im.vk.com:443 "GET /nim222561591?act=a_check&key=48d9ed0ac18cd5e1304bab1af760a50369e93d18b9004aa3&ts=1839381579&wait=25&mode=234&version=3 HTTP/1.1" 200 47
+2023-10-07 17:55:41,349 - DEBUG - https://im.vk.com:443 "GET /nim222561591?act=a_check&key=48d9ed0ac18cd5e1304bab1af760a50369e93d18b9004aa3&ts=1839381579&wait=25&mode=234&version=3 HTTP/1.1" 200 47
+2023-10-07 17:56:06,445 - DEBUG - https://im.vk.com:443 "GET /nim222561591?act=a_check&key=48d9ed0ac18cd5e1304bab1af760a50369e93d18b9004aa3&ts=1839381579&wait=25&mode=234&version=3 HTTP/1.1" 200 47
+2023-10-07 17:56:31,510 - DEBUG - https://im.vk.com:443 "GET /nim222561591?act=a_check&key=48d9ed0ac18cd5e1304bab1af760a50369e93d18b9004aa3&ts=1839381579&wait=25&mode=234&version=3 HTTP/1.1" 200 47
+2023-10-07 17:57:54,618 - DEBUG - Starting new HTTPS connection (1): api.vk.com:443
+2023-10-07 17:57:54,885 - DEBUG - https://api.vk.com:443 "POST /method/messages.getLongPollServer HTTP/1.1" 200 135
+2023-10-07 17:57:54,887 - DEBUG - Starting new HTTPS connection (1): im.vk.com:443
+2023-10-07 17:58:00,188 - DEBUG - https://im.vk.com:443 "GET /nim222561591?act=a_check&key=b8ce331770a2ab29c48082a192465c8c7d82c47fb5096b29&ts=1839381579&wait=25&mode=234&version=3 HTTP/1.1" 200 167
+2023-10-07 17:58:00,339 - DEBUG - https://api.vk.com:443 "POST /method/messages.send HTTP/1.1" 200 36
+2023-10-07 17:58:00,339 - INFO - {'user_id': 249618246, 'info': 'User joined the bot', 'step': 'Welcome'}
+2023-10-07 17:58:00,339 - INFO - {'user_id': 249618246, 'info': 'User requested weather in their city. Waiting interval', 'step': 'Weather in the city from profile'}
+2023-10-07 17:58:00,878 - DEBUG - https://api.vk.com:443 "POST /method/messages.send HTTP/1.1" 200 36
+2023-10-07 17:58:00,948 - DEBUG - https://im.vk.com:443 "GET /nim222561591?act=a_check&key=b8ce331770a2ab29c48082a192465c8c7d82c47fb5096b29&ts=1839381582&wait=25&mode=234&version=3 HTTP/1.1" 200 659
+2023-10-07 17:58:01,144 - DEBUG - https://im.vk.com:443 "GET /nim222561591?act=a_check&key=b8ce331770a2ab29c48082a192465c8c7d82c47fb5096b29&ts=1839381589&wait=25&mode=234&version=3 HTTP/1.1" 200 66
+2023-10-07 17:58:02,723 - DEBUG - https://im.vk.com:443 "GET /nim222561591?act=a_check&key=b8ce331770a2ab29c48082a192465c8c7d82c47fb5096b29&ts=1839381590&wait=25&mode=234&version=3 HTTP/1.1" 200 148
+2023-10-07 17:58:02,724 - DEBUG - Starting new HTTPS connection (1): api.vk.com:443
+2023-10-07 17:58:02,947 - DEBUG - https://api.vk.com:443 "GET /method/users.get?user_ids=249618246&fields=city&v=5.154&access_token=vk1.a.ucGZlEJvkt16MW6vL2QYy6bzt-7z-b4Gt9iPRY8CPO3BIW5BvnbiTucyIOAuKf17siSk6svY88uPVoJBAqP_x2-Syi2GMCUo5QvNDBGJmJQsn_RaXIKYaTPN0c0YIKvG_tF63TVGS2Idu0pyiP4pG5eo5VK5o51GC7bHRt_1Rd8KeVY2Z40q4fTfXoaNZWW1jSs6InFb6-LZ2WbHrnm5MQ HTTP/1.1" 200 159
+2023-10-07 17:58:02,948 - INFO - {'user_id': 249618246, 'info': 'The city was found', 'step': 'Getting city from user profile'}
+2023-10-07 17:58:02,949 - INFO - {'user_id': 249618246, 'info': 'User pass correct interval = 5', 'step': 'Getting interval'}
+2023-10-07 17:58:02,950 - DEBUG - Starting new HTTPS connection (1): sinoptik.ua:443
+2023-10-07 17:58:03,496 - DEBUG - https://sinoptik.ua:443 "GET /%D0%BF%D0%BE%D0%B3%D0%BE%D0%B4%D0%B0-%D0%BC%D0%BE%D1%81%D0%BA%D0%B2%D0%B0/10-%D0%B4%D0%BD%D0%B5%D0%B9 HTTP/1.1" 200 None
+2023-10-07 17:58:03,575 - INFO - {'user_id': 249618246, 'info': 'response to weather-web-service was success', 'step': 'Send weather to user'}
+2023-10-07 17:58:03,776 - DEBUG - https://api.vk.com:443 "POST /method/messages.send HTTP/1.1" 200 36
+2023-10-07 17:58:03,842 - DEBUG - https://im.vk.com:443 "GET /nim222561591?act=a_check&key=b8ce331770a2ab29c48082a192465c8c7d82c47fb5096b29&ts=1839381595&wait=25&mode=234&version=3 HTTP/1.1" 200 478
+2023-10-07 17:58:04,114 - DEBUG - https://im.vk.com:443 "GET /nim222561591?act=a_check&key=b8ce331770a2ab29c48082a192465c8c7d82c47fb5096b29&ts=1839381599&wait=25&mode=234&version=3 HTTP/1.1" 200 66
