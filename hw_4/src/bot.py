@@ -1,13 +1,15 @@
 from aiogram import Bot, Dispatcher, types 
 from aiogram.filters import Command 
-from aiogram.fsm.storage.memory import MemoryStorage
+from aiogram.fsm.storage.redis import RedisStorage, Redis
 import asyncio
 from config import TOKEN
 from handlers import facts
 
 async def main():
     bot = Bot(token=TOKEN)
-    dp = Dispatcher(storage=MemoryStorage())
+    redis = Redis(host='localhost')
+
+    dp = Dispatcher(storage=RedisStorage(redis=redis))
 
     dp.include_router(facts.router)
     

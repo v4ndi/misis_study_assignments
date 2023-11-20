@@ -40,7 +40,7 @@ async def categories(message: Message, state: FSMContext):
 @router.message(F.text == 'Fact of the Day', FSMStates.waiting_type_fact)
 async def categories(message: Message, state: FSMContext):
     await message.answer(
-        text='You can push send for get fact or come back',
+        text='You can click send to get a new fact or return to the category selection',
         reply_markup=in_category_facts()
     )
 
