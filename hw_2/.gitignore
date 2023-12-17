@@ -1,0 +1,6 @@
+src/config.ini
+.ipynb_checkpoints/
+.pytest_cache/
+src/__pycache__/
+tests/__pycache__/
+__pycache__
